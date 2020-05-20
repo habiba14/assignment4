@@ -1,0 +1,166 @@
+.navbar {
+    font-size: 18px;
+    background-image: linear-gradient(260deg,   #3da2e6e1 0%, #ee6c16ce  100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+ margin-top: 5px;
+ /* height: 65px; */
+
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  .nav-link:hover {
+    color: orange !important;
+  }
+  .dropdown >a:hover { 
+    color: orange;
+  }
+  .dropdown >a:active { 
+  
+     color: orange;
+  }
+  .dropdown-toggle :active{
+  background-color: white;
+  }
+  .dropdown-menu >a:active { 
+    color: orange;
+    background-color: white;
+  }
+  .dropdown-menu >a:hover { 
+    color: white;
+    background-color: orange;
+  }
+
+  .heading {
+    color:  orange;
+  }
+  .heading:hover {
+    color: rgba(255, 166, 0, 0.63);
+  }
+
+  .text {
+    color: gray;
+  }
+  .text1 {
+    color: gray;
+    text-align: center !important;
+  }
+
+  
+   .picture {
+    box-shadow:  5px  5px 3px grey;
+  }
+  .picture:hover {
+    border: 3px solid orange;
+    cursor: pointer;
+  }
+  .picture:active {
+    border: 3px solid orange;
+    cursor: pointer;
+  }
+  .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:orange;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px grey;
+  }
+  
+  .button:hover {background-color:  rgba(255, 166, 0, 0.63);}
+  
+  .button:active {
+    background-color: lightsalmon;
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+  }
+  .heading1 {
+    color:  orange;
+    text-align: center;
+  }
+  .heading1:hover {
+    color: rgba(255, 166, 0, 0.63);
+  }
+  .card{
+    width: 250px;
+    height: 350px;
+    /* box-shadow:  5px  5px 3px orange;  */
+    margin-top: 20px;
+    border: 2px solid gainsboro;
+  }
+   .card:hover {
+    border: 3px solid orange;
+    cursor: pointer;
+  } 
+  .card:active {
+    border: 3px solid orange;
+    cursor: pointer;
+  }
+ 
+  .card-text {
+    color: grey;
+    font-weight: bold;
+  }
+
+  .paintings {
+    margin-top: 20px;
+  }
+h4 {
+  color: orange;
+}
+h4:hover {
+  color: lightsalmon;
+}
+
+.service1,.service2,.service3 {
+
+  width: 250px;
+  height: 150px;
+  border: 2px solid gainsboro;
+  box-shadow:  4px  6px 5px grey;
+  text-align: center;
+  margin-top: 20px !important;
+  background-color: white;
+  padding-top: 50px;
+}
+.services{
+  justify-content: space-around;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.service1:hover,.service2:hover,.service3:hover {
+  border: 2px solid orange;
+ cursor: pointer;
+}
+
+.service1:active,.service2:active,.service3:active {
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.fa-paint-brush,.fa-pencil,.fa-cube {
+  font-size: 20px !important;
+  color: orange;
+}
+.fa-facebook,.fa-instagram,.fa-whatsapp {
+  color: white;
+  font-size: 20px !important;
+  padding: 20px;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-whatsapp:hover {
+  color: lightsalmon;
+  cursor: pointer;
+} 
+.footer1:hover {
+  color: black;
+}
+.footer1:active {
+  color: black;
+}
